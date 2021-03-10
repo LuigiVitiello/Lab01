@@ -4,10 +4,12 @@ import java.util.*;
 
 public class Parole {
 		
-    LinkedList<String>parole;
+    //LinkedList<String>parole;
+	//Proviamo con un ArrayList
+	ArrayList<String>parole;
 	public Parole() {
 		
-		parole = new LinkedList<String>();
+		parole = new ArrayList<String>();
 	}
 	
 	public void addParola(String p) {
@@ -20,7 +22,7 @@ public class Parole {
 	}
 	
 	public void reset() {
-		parole = new LinkedList<String>();
+		parole = new ArrayList<String>();
 	}
 	
 	public void cancellaParola(String p) {
